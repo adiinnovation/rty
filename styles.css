@@ -38,7 +38,7 @@
    HOPE / Rotary / Create Lasting Impact artwork centered, navigation on both sides. */
 .nav-row{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:14px}
 .header-left{grid-column:1;grid-row:1;display:flex;align-items:center;justify-content:flex-start;gap:clamp(9px,1vw,16px);min-width:0}
-.club-header-logo{display:flex;align-items:center;justify-content:flex-start;flex:0 0 auto;width:118px;line-height:0}
+.club-header-logo{display:flex;align-items:center;justify-content:flex-start;flex:0 0 auto;width:100px;line-height:0}
 .club-header-logo img{display:block;width:100%;height:auto;max-height:54px;object-fit:contain}
 .header-logo{grid-column:2;grid-row:1;display:flex;align-items:center;justify-content:center;width:min(290px,25vw);line-height:0}
 .header-logo img{display:block;width:100%;height:auto;max-height:62px;object-fit:contain}
