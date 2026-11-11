@@ -57,7 +57,7 @@
 }
 @media(max-width:720px){
   .nav-row{display:flex;justify-content:center;height:76px}
-  .club-header-logo{position:absolute;left:38px;top:50%;transform:translateY(-50%);width:92px;z-index:2}
+  .club-header-logo{position:absolute;left:10px;top:50%;transform:translateY(-50%);width:92px;z-index:2}
   .club-header-logo img{max-height:42px}
   .header-logo{width:min(175px,42vw);max-width:175px}
   .header-logo img{max-height:48px}
