@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1735 900" role="img" aria-labelledby="title desc">
+  <title id="title">Rotary District 3205 HOPE — Connecting Lives, Creating Future</title>
+  <desc id="desc">Warm ivory and gold flowing fabric-like background with Rotary District 3205 branding and a central HOPE emblem.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff8dc"/><stop offset=".48" stop-color="#f8edc6"/><stop offset="1" stop-color="#fff9e8"/>
+    </linearGradient>
+    <linearGradient id="silk" x1="0" y1="0" x2=".9" y2="1">
+      <stop offset="0" stop-color="#fffef2"/><stop offset=".45" stop-color="#f8e9b8"/><stop offset=".72" stop-color="#fff6d7"/><stop offset="1" stop-color="#e7d28d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff4c7"/><stop offset=".45" stop-color="#e9c96d"/><stop offset="1" stop-color="#fff0b0"/>
+    </linearGradient>
+    <linearGradient id="corner" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#b7d0c1"/><stop offset=".55" stop-color="#a7b8a4"/><stop offset="1" stop-color="#d2a17a"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#fff" stop-opacity=".75"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="170%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dy="10"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".18"/></feComponentTransfer>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grain" width="7" height="7" patternUnits="userSpaceOnUse">
+      <path d="M0 1h7M0 4h7" stroke="#b89d5b" stroke-opacity=".07" stroke-width=".55"/>
+      <path d="M1 0v7M5 0v7" stroke="#fff" stroke-opacity=".18" stroke-width=".5"/>
+    </pattern>
+  </defs>
+
+  <rect width="1735" height="900" fill="url(#base)"/>
+  <ellipse cx="880" cy="400" rx="960" ry="600" fill="url(#glow)"/>
+
+  <!-- flowing silk folds -->
+  <path d="M-90 90 C210 -30 420 20 690 112 C970 208 1100 260 1390 165 C1530 120 1640 80 1810 130 L1810 390 C1540 300 1390 420 1150 480 C820 565 500 380 250 330 C90 300 -10 320 -90 370Z"
+        fill="url(#silk)" opacity=".92"/>
+  <path d="M-100 300 C170 440 390 515 640 505 C930 495 1050 350 1280 260 C1500 170 1630 225 1810 310"
+        fill="none" stroke="#d8bd72" stroke-opacity=".42" stroke-width="38"/>
+  <path d="M-100 286 C190 430 410 492 650 480 C940 465 1060 330 1290 245 C1510 165 1640 215 1810 292"
+        fill="none" stroke="#fff9e5" stroke-opacity=".8" stroke-width="25"/>
+  <path d="M1040 -80 C1160 100 1230 180 1330 265 C1450 370 1500 500 1490 720 C1485 820 1540 900 1650 960"
+        fill="none" stroke="url(#gold)" stroke-width="72" opacity=".58"/>
+  <path d="M1010 -70 C1130 110 1205 190 1300 270 C1415 370 1465 510 1455 715"
+        fill="none" stroke="#fffbe9" stroke-opacity=".72" stroke-width="28"/>
+  <path d="M-80 570 C170 680 340 690 520 640 C710 585 830 545 1010 595"
+        fill="none" stroke="#d8bd72" stroke-opacity=".32" stroke-width="42"/>
+  <path d="M-70 555 C170 660 340 670 520 620 C700 570 830 530 1010 580"
+        fill="none" stroke="#fff9e6" stroke-opacity=".75" stroke-width="26"/>
+
+  <!-- colored corner accents -->
+  <path d="M1350 -20 C1460 35 1525 125 1625 160 C1670 176 1715 180 1760 176 L1760 -20Z"
+        fill="url(#corner)" opacity=".9"/>
+  <path d="M1355 -5 C1470 55 1530 135 1635 166 C1680 180 1725 183 1760 178"
+        fill="none" stroke="#e8b52c" stroke-width="2"/>
+  <path d="M-20 660 C95 675 180 710 235 785 C270 835 300 880 360 920 L-20 920Z"
+        fill="url(#corner)" opacity=".92"/>
+  <path d="M-15 666 C100 682 182 720 240 790 C275 835 300 880 360 920"
+        fill="none" stroke="#e9b52d" stroke-width="2.5"/>
+
+  <!-- subtle fabric texture -->
+  <rect width="1735" height="900" fill="url(#grain)" opacity=".65"/>
+
+  <!-- Rotary District 3205 logo-style header lockup -->
+  <g transform="translate(68 48)">
+    <text x="0" y="62" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700" fill="#06458d">Rotary</text>
+    <text x="3" y="101" font-family="Arial, Helvetica, sans-serif" font-size="27" font-weight="700" fill="#06458d">District 3205</text>
+    <g transform="translate(217 48)" fill="none" stroke="#e6a000" stroke-width="5">
+      <circle r="43"/><circle r="31" stroke-width="3"/><circle r="10" stroke-width="3"/>
+      <g stroke-width="5">
+        <path d="M0-52v13M0 39v13M-52 0h13M39 0h13M-37-37l10 10M27 27l10 10M37-37L27-27M-27 27l-10 10"/>
+        <path d="M-18-27l36 54M18-27l-36 54" stroke-width="2.5"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- central HOPE wordmark -->
+  <g filter="url(#softShadow)">
+    <text x="520" y="505" font-family="Arial, Helvetica, sans-serif" font-size="232" font-weight="800" letter-spacing="4" fill="#06366e">H</text>
+    <text x="925" y="505" font-family="Arial, Helvetica, sans-serif" font-size="232" font-weight="800" letter-spacing="4" fill="#06366e">P</text>
+    <text x="1100" y="505" font-family="Arial, Helvetica, sans-serif" font-size="232" font-weight="800" letter-spacing="4" fill="#06366e">E</text>
+
+    <!-- open hands / circular O mark -->
+    <g transform="translate(802 410)">
+      <path d="M-96 -10 C-75 -72 -28 -105 28 -112 C63 -117 96 -103 111 -88 C121 -78 108 -68 92 -60 L20 -25 C-8 -11 -39 2 -58 24 C-73 40 -104 15 -96 -10Z" fill="#2da33d"/>
+      <path d="M-83 5 C-65 -35 -36 -58 -4 -66 C-25 -49 -43 -29 -51 -6" fill="none" stroke="#a9e2a1" stroke-width="8" stroke-linecap="round"/>
+      <path d="M-101 38 C-76 60 -53 81 -23 90 C11 101 52 91 72 76 C88 64 75 51 58 53 L6 58 C-24 60 -52 45 -68 25 C-81 9 -110 18 -101 38Z" fill="#f6a93c"/>
+      <path d="M99 -62 C120 -28 132 14 122 55 C115 83 98 106 78 119 C63 129 47 114 54 96 L78 34 C89 6 84 -23 68 -43 C54 -61 84 -82 99 -62Z" fill="#168ecb"/>
+      <path d="M73 -47 C93 -16 98 17 89 47 M62 -26 C78 -2 80 24 72 44" fill="none" stroke="#8bd3ed" stroke-width="7" stroke-linecap="round"/>
+      <path d="M-2 79 C25 86 49 80 66 66 M-28 67 C-2 78 24 72 43 61" fill="none" stroke="#f8d18d" stroke-width="7" stroke-linecap="round"/>
+    </g>
+
+    <!-- flying dove -->
+    <path d="M750 244 C772 228 767 200 783 171 C791 194 801 208 816 216 C807 194 813 177 825 164 C833 195 839 220 859 239 C873 253 864 261 846 259 C828 257 814 271 797 286 C782 299 760 305 744 297 C757 286 773 278 780 266 C764 263 751 255 750 244Z"
+          fill="#f5bd08"/>
+  </g>
+
+  <text x="868" y="600" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="51" font-weight="500" fill="#101010">Connecting Lives</text>
+  <text x="868" y="657" text-anchor="middle" font-family="Arial, Helvetica, sans-serif"
+        font-size="51" font-weight="500" fill="#101010">Creating Future</text>
+</svg>

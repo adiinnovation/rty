@@ -48,3 +48,40 @@ const observer = new IntersectionObserver(entries=>entries.forEach(entry=>{
 document.querySelectorAll(".section-head,.principles article,.leader,.event-card,.report-card,.gallery-item,.publication-copy").forEach(el=>{
   el.classList.add("reveal");observer.observe(el);
 });
+
+
+
+
+const galleryFilters = document.querySelectorAll(".gallery-filter");
+const galleryItems = document.querySelectorAll(".gallery-item");
+
+galleryFilters.forEach(button => {
+  button.addEventListener("click", () => {
+    const selectedEvent = button.dataset.filter;
+
+    galleryFilters.forEach(filter =>
+      filter.classList.remove("active")
+    );
+
+    button.classList.add("active");
+
+    galleryItems.forEach(item => {
+      const showItem =
+        selectedEvent === "all" ||
+        item.dataset.event === selectedEvent;
+
+      item.hidden = !showItem;
+    });
+  });
+});
+
+
+
+
+/* Remove the intro overlay after its animation to keep the page fully interactive. */
+window.addEventListener("load", () => {
+  const intro = document.getElementById("rotaryIntro");
+  if (intro) {
+    window.setTimeout(() => intro.remove(), 4000);
+  }
+});
